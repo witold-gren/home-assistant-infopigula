@@ -1,0 +1,41 @@
+{
+  "id": "11111111-1111-1111-1111-111111111111",
+  "title": "Wydanie 01.01.2030",
+  "publishDate": "2030-01-01T03:00:00",
+  "audioUrl": null,
+  "audioAvailable": true,
+  "categories": [
+    {
+      "name": "Polska",
+      "priority": 2,
+      "news": [
+        {
+          "id": "p2", "order": 2, "rating": 4.5, "totalVotes": 120,
+          "content": "<p><strong style=\"color: rgb(0, 0, 0);\">Drugi tytuł z kraju.</strong> Treść&nbsp;drugiej wiadomości.</p>",
+          "source": {"name": "PAP", "url": "https://example.com/p2", "image": "https://example.com/pap.png"}
+        },
+        {
+          "id": "p1", "order": 1, "rating": "4.14", "totalVotes": "152",
+          "content": "<p><strong>Pierwszy tytuł z kraju.</strong></p><p>Pierwszy akapit.</p><p>Drugi akapit.</p>",
+          "source": {"name": "Interia", "url": "https://example.com/p1", "image": null}
+        },
+        {
+          "id": "p3", "order": 7, "rating": null, "totalVotes": null,
+          "content": "<p>Wiadomość bez pogrubienia. Reszta tekstu.</p>",
+          "source": null
+        }
+      ]
+    },
+    {
+      "name": "Świat",
+      "priority": 3,
+      "news": [
+        {
+          "id": "w1", "order": 10, "rating": 4.75, "totalVotes": 160,
+          "content": "<p><strong>Tytuł ze świata.</strong> Treść ze świata.</p>",
+          "source": {"name": "Rmf24", "url": "https://example.com/w1"}
+        }
+      ]
+    }
+  ]
+}
