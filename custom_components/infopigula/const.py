@@ -1,4 +1,4 @@
-"""Stałe integracji Infopigułka."""
+"""Stałe integracji Infopiguła."""
 
 from __future__ import annotations
 

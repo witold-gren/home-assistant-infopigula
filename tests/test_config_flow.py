@@ -23,7 +23,7 @@ async def test_flow_creates_entry(
     assert result["type"] is FlowResultType.FORM
     result = await hass.config_entries.flow.async_configure(result["flow_id"], {})
     assert result["type"] is FlowResultType.CREATE_ENTRY
-    assert result["title"] == "Infopigułka"
+    assert result["title"] == "Infopiguła"
 
 
 async def test_flow_cannot_connect(

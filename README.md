@@ -1,15 +1,15 @@
-# Infopigułka – integracja Home Assistant
+# Infopiguła – integracja Home Assistant
 
 Pokazuje w Home Assistant najważniejsze wiadomości dnia z
-[Infopigułki](https://infopigula.pl): **3 z Polski i 3 ze świata**.
+[Infopiguły](https://infopigula.pl): **3 z Polski i 3 ze świata**.
 Nie wymaga konta ani klucza API.
 
-> Nieoficjalna integracja, niezwiązana z Infopigułką. Korzysta z tego samego
+> Nieoficjalna integracja, niezwiązana z Infopigułą. Korzysta z tego samego
 > publicznego wydania, które strona pokazuje niezalogowanym gościom, i pobiera
-> je raz na 3 godziny. Prawa do treści należą do Infopigułki i autorów źródeł –
+> je raz na 3 godziny. Prawa do treści należą do Infopiguły i autorów źródeł –
 > integracja służy do prywatnego wyświetlania wiadomości w domu, nie do ich
 > dalszej publikacji. Pełne wydanie i wiadomości premium są dostępne w
-> [subskrypcji Infopigułki](https://infopigula.pl/premium).
+> [subskrypcji Infopiguły](https://infopigula.pl/premium).
 
 ## Encje
 
@@ -39,7 +39,7 @@ Gdy w wydaniu nie ma danej kategorii, encja jest niedostępna (`unavailable`).
 
 1. HACS → ⋮ → **Niestandardowe repozytoria** → adres tego repozytorium,
    typ **Integracja**.
-2. Wyszukaj **Infopigułka** → **Pobierz**.
+2. Wyszukaj **Infopiguła** → **Pobierz**.
 3. Uruchom ponownie Home Assistant.
 
 ### Ręcznie
@@ -49,7 +49,7 @@ i uruchom ponownie Home Assistant.
 
 ### Konfiguracja
 
-**Ustawienia → Urządzenia i usługi → Dodaj integrację → Infopigułka.**
+**Ustawienia → Urządzenia i usługi → Dodaj integrację → Infopiguła.**
 Nie trzeba niczego wpisywać – integracja sprawdza tylko, czy wydanie da się
 pobrać.
 

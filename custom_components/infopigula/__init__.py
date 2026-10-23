@@ -1,4 +1,4 @@
-"""Infopigułka: najważniejsze wiadomości z Polski i ze świata w Home Assistant."""
+"""Infopiguła: najważniejsze wiadomości z Polski i ze świata w Home Assistant."""
 
 from __future__ import annotations
 

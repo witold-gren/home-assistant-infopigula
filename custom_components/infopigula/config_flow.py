@@ -25,5 +25,5 @@ class InfopigulaConfigFlow(ConfigFlow, domain=DOMAIN):
             except InfopigulaError:
                 errors["base"] = "cannot_connect"
             else:
-                return self.async_create_entry(title="Infopigułka", data={})
+                return self.async_create_entry(title="Infopiguła", data={})
         return self.async_show_form(step_id="user", errors=errors)

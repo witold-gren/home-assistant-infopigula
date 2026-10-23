@@ -22,5 +22,5 @@ version="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["vers
 rsync -rt --inplace --delete --exclude '__pycache__' --exclude '*.pyc' \
   "$repo/custom_components/infopigula/" "$target/"
 
-echo "Wdrożono Infopigułka $version do $target"
+echo "Wdrożono Infopiguła $version do $target"
 echo "Zrestartuj Home Assistant (Ustawienia → System → Uruchom ponownie)."

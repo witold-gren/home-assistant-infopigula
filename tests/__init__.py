@@ -1,1 +1,1 @@
-"""Testy integracji Infopigułka."""
+"""Testy integracji Infopiguła."""

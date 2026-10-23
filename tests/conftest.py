@@ -24,4 +24,4 @@ def release_json() -> dict[str, Any]:
 
 @pytest.fixture
 def config_entry() -> MockConfigEntry:
-    return MockConfigEntry(domain=DOMAIN, title="Infopigułka", data={})
+    return MockConfigEntry(domain=DOMAIN, title="Infopiguła", data={})

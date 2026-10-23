@@ -80,7 +80,7 @@ class InfopigulaNewsSensor(CoordinatorEntity[InfopigulaCoordinator], SensorEntit
 
     entity_description: InfopigulaSensorDescription
     _attr_has_entity_name = True
-    _attr_attribution = "Dane: Infopigułka (infopigula.pl)"
+    _attr_attribution = "Dane: Infopiguła (infopigula.pl)"
     # Długie teksty nie trafiają do bazy recordera - historia nic nie wnosi,
     # a baza by puchła.
     _unrecorded_attributes = frozenset({"news", "summary"})
@@ -96,8 +96,8 @@ class InfopigulaNewsSensor(CoordinatorEntity[InfopigulaCoordinator], SensorEntit
         self.entity_id = f"sensor.{description.object_id}"
         self._attr_device_info = DeviceInfo(
             identifiers={(DOMAIN, entry_id)},
-            name="Infopigułka",
-            manufacturer="Infopigułka",
+            name="Infopiguła",
+            manufacturer="Infopiguła",
             entry_type=DeviceEntryType.SERVICE,
             configuration_url=BASE_URL,
         )

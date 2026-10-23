@@ -1,4 +1,4 @@
-"""Klient publicznego API Infopigułki (tylko odczyt najnowszego wydania)."""
+"""Klient publicznego API Infopiguły (tylko odczyt najnowszego wydania)."""
 
 from __future__ import annotations
 
