@@ -1,5 +1,5 @@
 [project]
-name = "ha-infopigula"
+name = "home-assistant-infopigula"
 version = "0.1.0"
 description = "Najważniejsze wiadomości z Infopigułki w Home Assistant"
 requires-python = ">=3.13"

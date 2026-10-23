@@ -5,10 +5,10 @@
     "@witold-gren"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/witold-gren/ha-infopigula",
+  "documentation": "https://github.com/witold-gren/home-assistant-infopigula",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/witold-gren/ha-infopigula/issues",
+  "issue_tracker": "https://github.com/witold-gren/home-assistant-infopigula/issues",
   "requirements": [],
   "single_config_entry": true,
   "version": "0.1.0"
