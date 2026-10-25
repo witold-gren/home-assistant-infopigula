@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 – 2026-10-25
+
+- Logo integracji (`logo`, `dark_logo`) i ikona dla ciemnego motywu (`dark_icon`).
+
 ## 0.1.0 – 2026-10-25
 
 - Pierwsze wydanie: encje `sensor.infopigula_poland` i `sensor.infopigula_world`
