@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Infopiguła",
+        "description": "Adds two entities with the latest Infopiguła news: 3 from Poland and 3 from the world. Updated every 3 hours."
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not download the latest release from infopigula.pl."
+    },
+    "abort": {
+      "single_instance_allowed": "Infopiguła is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "poland": { "name": "News from Poland" },
+      "world": { "name": "World news" }
+    }
+  }
+}

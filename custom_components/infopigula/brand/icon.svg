@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- "News pill" capsule - own design, not the Infopiguła logo -->
+  <g transform="rotate(-38 128 128)">
+    <!-- light outline: readable on dark backgrounds -->
+    <rect x="18" y="76" width="220" height="104" rx="52" fill="#ffffff"/>
+    <!-- light half (news) -->
+    <path d="M128 84 H186 A44 44 0 0 1 186 172 H128 Z" fill="#eef4fb"/>
+    <!-- dark half (info) -->
+    <path d="M128 84 H70 A44 44 0 0 0 70 172 H128 Z" fill="#1f2a33"/>
+    <!-- outer outline -->
+    <rect x="26" y="84" width="204" height="88" rx="44" fill="none" stroke="#1f2a33" stroke-width="7"/>
+    <!-- text lines -->
+    <rect x="142" y="106" width="44" height="10" rx="5" fill="#2f80ed"/>
+    <rect x="142" y="123" width="56" height="10" rx="5" fill="#1f2a33" opacity="0.5"/>
+    <rect x="142" y="140" width="38" height="10" rx="5" fill="#1f2a33" opacity="0.5"/>
+    <!-- vertical "i" in the dark half -->
+    <g transform="rotate(38 84 128)" fill="#ffffff">
+      <circle cx="84" cy="101" r="9.5"/>
+      <rect x="76" y="117" width="16" height="40" rx="8"/>
+    </g>
+  </g>
+</svg>

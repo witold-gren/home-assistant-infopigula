@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Infopiguła",
+        "description": "Dodaje dwie encje z najnowszymi wiadomościami Infopiguły: 3 z Polski i 3 ze świata. Aktualizacja co 3 godziny."
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie udało się pobrać najnowszego wydania z infopigula.pl."
+    },
+    "abort": {
+      "single_instance_allowed": "Infopiguła jest już skonfigurowana."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "poland": { "name": "Wydarzenia z Polski" },
+      "world": { "name": "Wydarzenia ze świata" }
+    }
+  }
+}
